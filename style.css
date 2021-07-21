@@ -1,0 +1,296 @@
+
+.container-one{
+    background-color: white;
+    ;
+}
+.logo-nav{
+    display: flex;
+    justify-content:space-between;  
+}
+.logo{
+margin-left: 150px;
+margin-top: 85px;
+}
+#search input{
+    padding: 6px;
+    margin-top: 80px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.navbar{
+   
+    padding-top: 85px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    
+    
+}
+.navbar a{
+   
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 14px 16px;
+    color: rgb(30, 54, 54);
+    text-decoration: none;
+    box-shadow:         inset 0 0 5px rgb(240, 239, 239);
+    
+}
+.home{
+    background-color:tomato;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.home:hover{
+    color:rgb(5, 4, 4) ;
+    background-color:salmon;
+}
+.navbar a:hover{
+    background-color: black;
+    color: cadetblue;
+}
+/* section tv */
+.container{
+    background-color:mistyrose;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px #ccc;
+    
+    border-radius: 10px;
+  }
+.set-text-img{
+    display: flex;
+    justify-content: space-between;
+
+}
+#tv-image img{
+    height: 350px;
+    width: 350px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.text{
+    margin-left: 70px;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.text h1:hover{
+    color: lightslategray;
+    font-size: 58px;
+}
+.text h2{
+    font-size: 50px;
+    font-weight: bold;
+    color:purple;
+    
+}
+.text p{
+    font-size: 18px;
+    margin-top: -10px;
+
+}
+.text a{
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    font-family:serif;
+    
+    
+}
+#buy-now{
+    margin-top: 5px;
+    margin-top: -20px;
+}
+
+.button:hover{
+    color:rgb(5, 4, 4) ;
+    background-color:salmon;
+}
+/* categories image and title */
+.categories-all-img{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 45px;
+    
+
+}
+#categories-h1 h1{
+    padding-left: 200px;
+    font-size: 40px;
+    
+}
+.watch{
+    display: flex;
+
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 0px 70px 0px 70px;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.watch:hover{
+    color:rgb(5, 4, 4) ;
+    background-color: blanchedalmond;
+}
+
+.watch img{
+    width: 100px;
+    
+}
+.bag{
+    display: flex;
+    align-items: center;
+    background-color: palevioletred;
+    margin-left: 20px;
+    padding: 0px 70px 0px 70px;
+    border-radius: 10px;
+}
+.bag:hover{
+    color:rgb(5, 4, 4) ;
+    background-color: blanchedalmond;
+}
+.bag img{
+    width: 100px;
+}
+.shoes{
+    display: flex;
+    align-items: center;
+    
+    background-color:blue;
+    margin-left: 20px;
+    padding: 0px 70px 0px 70px;
+    border-radius: 10px;
+    
+}
+.shoes:hover{
+    color:rgb(5, 4, 4) ;
+    background-color: blanchedalmond;
+}
+.shoes img{
+    width: 100px;
+}
+/* second categories */
+.categories-two{
+    background-color:rgb(230, 223, 223);
+}
+.see-all{
+    text-decoration: none;
+    color: black;
+}
+.see-all:hover{
+    color:fuchsia;
+    font-size: 40px;
+}
+.see-shoe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.shoe{
+    padding-left: 200px;
+    font-size: 30px;
+}
+.see{
+    padding-right: 200px;
+    font-size: 14px;
+    color:orange;
+}
+/* shoes third section */
+
+.grid-parent{
+    display:flex;
+    justify-content: center;
+  
+
+    
+
+}
+.grid:hover{
+    background-color: silver;
+}
+.grid-two:hover{
+    background-color: silver;
+}
+.grid-three:hover{
+    background-color: silver;
+}
+.grid{
+   text-align: center;
+   
+   background-color: white;
+   padding: 0px 5px 0px 5px;
+   margin-left: 20px;
+   border-radius: 15px;
+   margin-bottom: 45px;
+}
+.grid-two{
+    text-align: center;
+   background-color:white;
+   padding: 0px 5px 0px 5px;
+   margin-left: 20px;
+   border-radius: 15px;
+   margin-bottom: 45px;
+}
+.grid-three{
+    text-align: center;
+   background-color: white;
+   padding: 0px 5px 0px 5px;
+   margin-left: 20px;
+   border-radius: 15px;
+   margin-bottom: 45px;
+}
+.image-shoe img{
+    width: 300px;
+}
+.button{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    
+}
+/* footer */
+.footer{
+   padding-left: 150px;
+   padding-right: 150px;
+   
+   
+}
+.footer-paragraph{
+   text-align: center;
+    background-color: thistle;
+    border-radius: 20px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    box-shadow: inset 10px 10px 50px #fff;
+}
+.footer-paragraph:hover{
+    
+    background-color:palevioletred;
+}
+.footer-paragraph h3{
+    font-size: 18px;
+}
+.footer-paragraph h1{
+    font-weight: bold;
+}
+.footer-paragraph input{
+    padding: 20px 120px 20px 120px;
+}
+.footer-paragraph button{
+    padding: 20px 20px 20px 80px;
+    margin-left: -5px;
+}
+
