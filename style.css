@@ -294,3 +294,109 @@ margin-top: 85px;
     margin-left: -5px;
 }
 
+/* media query */
+@media only screen and (max-width: 768px){
+
+    /* navbar start  */
+    .container-one{
+        columns: 1;
+        width: 100%;
+        display: inline;
+    }
+    .logo-nav{
+        display: inline;
+    }
+    .logo img{
+        height: 40px;
+    }
+    .navbar{
+        padding-right: 35px;
+    }
+    .navbar a{
+        display: block;
+        columns: 1;
+        width: 100%;
+        padding-left: 30px;
+        text-align: center;
+    }
+     /* navbar end  */
+
+    /* container tv and text start  */
+    .container{
+        width: 100%;
+        columns: 1;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .set-text-img{
+        display: inline;
+    
+    }
+    #tv-image img{
+        height: 400px;
+        width: 465px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .text{
+        margin-left: 10px;
+        text-align: center;
+    }
+    .categories-total{
+        padding-right: 80px;
+    }
+    .categories-all-img{
+        width: 100%;
+        columns: 1;
+        display: inline;
+    }
+    .watch{
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .bag{
+        justify-content: space-between;
+    }
+    .shoes{
+        justify-content: space-between;
+    }
+    .see-shoe{
+        display:inline;
+    }
+  
+    .grid-parent{
+        display: inline;
+        columns: 1;
+        width: 100%;
+    }
+    .grid{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .grid-two{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .grid-three{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .categories-two{
+        color: brown;
+        padding-bottom: 1px;
+    }
+    /* footer  */
+    .footer{
+        display:inline;
+    }
+   
+    .footer-paragraph input{
+        padding: 5px 10px 5px 10px;
+    }
+    .footer-paragraph button{
+        padding: 5px 10px 5px 10px;
+    }
+
+}
